@@ -11,18 +11,11 @@
    nearai login
    ```
 
-3. Create an agent
-
-
+3. To Run the Agent
    ```
-   nearai agent create
+   cd ZAY-THE-STRATEGY
+   nearai agent interactive $PWD --local
    ```
-
-    Fill the desription and agent name, and instructions as you wish. Go to the directory where the prompt shows the agent.py file is.
-     Copy and paste the complete code from this repository to that folder.
-
-* Example: ~/.nearai/
-
 
 ## Environment Variables
 
@@ -39,4 +32,3 @@ To run this project, you will need to add the following environment variables to
     "ZCASH_ADDRESS": ""   ----> unified address only
 }
 ```
-
