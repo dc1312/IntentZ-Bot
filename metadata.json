@@ -1,0 +1,21 @@
+{
+  "name": "ZCash-CrossChain-Agent",
+  "version": "0.0.1",
+  "description": "Agent that uses near intents to perform cross chain operations for most chains, including shielded transfers for ZCash. Supports BTC, ZCash, Near Protocol and EVM Chains",
+  "category": "agent",
+  "tags": [],
+  "details": {
+    "agent": {
+      "defaults": {
+        "model": "deepseek-3",
+        "model_provider": "fireworks",
+        "model_temperature": 0.4,
+        "model_max_tokens": 16384
+      },
+      "welcome": {
+        "description": "\u001b[36m\u001b[1m\n ██╗███╗   ██╗████████╗███████╗███╗   ██╗████████╗███████╗     ██████╗   ██████╗ ████████╗\n ██║████╗  ██║╚══██╔══╝██╔════╝████╗  ██║╚══██╔══╝╚══███╔╝     ██╔══██╗ ██╔═══██╗╚══██╔══╝\n ██║██╔██╗ ██║   ██║   █████╗  ██╔██╗ ██║   ██║     ███╔╝█████╗██████╔╝ ██║   ██║   ██║   \n ██║██║╚██╗██║   ██║   ██╔══╝  ██║╚██╗██║   ██║    ███╔╝ ╚════╝██╔══██╗ ██║   ██║   ██║   \n ██║██║ ╚████║   ██║   ███████╗██║ ╚████║   ██║   ███████╗     ██████╔╝ ╚██████╔╝   ██║   \n ╚═╝╚═╝  ╚═══╝   ╚═╝   ╚══════╝╚═╝  ╚═══╝   ╚═╝   ╚══════╝     ╚═════╝   ╚═════╝    ╚═╝    \n\u001b[0m\n\u001b[36m\u001b[1mAssistant:\u001b[0m \u001b[37mWelcome to IntentZ-Bot, your gateway to seamless cross-chain operations!\u001b[0m\n\n\u001b[34m\u001b[1m=== Features ===\u001b[0m\n- \u001b[36mUses NEAR Intents for automated cross-chain execution 🔗\u001b[0m\n- \u001b[36mSupports shielded ZCash transfers for privacy 🔒\u001b[0m\n- \u001b[36mDeposit support: ZCash & NEAR\u001b[0m\n- \u001b[36mSwap & Withdraw: Many tokens supported!\u001b[0m\n\n\u001b[33m\u001b[1m⚡ IntentZ-Bot: Navigating Crypto, Simplifying Success! ⚡\u001b[0m\n"
+      }
+    }
+  },
+  "show_entry": true
+}
